@@ -212,7 +212,7 @@ export default function Maps() {
           <h1>(Click on markers to see albums!)</h1>
           
         <MapWrapped
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDL-Ym7BsANiFWGaybRq7WC45uexR5rkhE`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=`}
           loadingElement={<div style={{ height: '100%' }} />}
           containerElement={<div style={{ height: '100%',background: '#fff' }} />}
           mapElement={<div style={{margin:'auto', height: '65%', width: "90%" }} />}

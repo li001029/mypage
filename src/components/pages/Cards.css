@@ -1,0 +1,61 @@
+.picturerow1 {
+  width:20%;
+  height:30%;
+  display: flex;
+   padding-top: 1rem;
+   
+}
+
+.picturerow2 {
+  width:20%;
+  height:30%;
+  display:flex;
+   float: left;
+   padding-top: 1rem;
+   margin-top:12.5rem;
+}
+
+.picturerow3 {
+  width:20%;
+  height:30%;
+  display:flex;
+   float: left;
+   padding-top: 1rem;
+   margin-top:12.5rem;
+}
+
+.nypicturerow1 {
+  width:16.5%;
+  height:21%;
+  display: flex;
+  float: left;
+   padding-top: 1rem;
+   
+}
+
+.nypicturerow2 {
+  width:16.5%;
+  height:21%;
+  display:flex;
+   float: left;
+   padding-top: 0;
+   margin-top:10rem;
+}
+
+.nypicturerow3 {
+  width:16.5%;
+  height:21%;
+  display:flex;
+   float: left;
+   padding: 0;
+   margin-top:10.2rem;
+}
+
+.nypicturerow4 {
+  width:16.5%;
+  height:21%;
+  display:flex;
+   float: left;
+   padding: 0;
+   margin-top:10.2rem;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router,  Route } from 'react-router-dom';
 import SF from './components/pages/SF';
 import ST from './components/pages/ST';
 import VC from './components/pages/VC';
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
     
-      <Router  basename='/'>
+      <Router  >
         <div>
           <Route exact path='/'  component={Home} />
           <Route exact path='/SF' component={SF} />

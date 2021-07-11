@@ -17,27 +17,29 @@ import CS from './components/pages/CS';
 import SH from './components/pages/SH';
 import CG from './components/pages/CG';
 
+
 function App() {
   return (
     <>
-      <Router  basename={window.location.pathname || ''}>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/SF' component={SF} />
-          <Route path='/ST' component={ST} />
-          <Route path='/VC' component={VC} />
-          <Route path='/SD' component={SD} />
-          <Route path='/LA' component={LA} />
-          <Route path='/BS' component={BS} />
-          <Route path='/NY' component={NY} />
-          <Route path='/PY' component={PY} />
-          <Route path='/DC' component={DC} />
-          <Route path='/GZ' component={GZ} />
-          <Route path='/CQ' component={CQ} />
-          <Route path='/CS' component={CS} />
-          <Route path='/SH' component={SH} />
-          <Route path='/CG' component={CG} />
-        </Switch>
+    
+      <Router  basename='/'>
+        <div>
+          <Route exact path='/'  component={Home} />
+          <Route exact path='/SF' component={SF} />
+          <Route exact path='/ST' component={ST} />
+          <Route exact path='/VC' component={VC} />
+          <Route exact path='/SD' component={SD} />
+          <Route exact path='/LA' component={LA} />
+          <Route exact path='/BS' component={BS} />
+          <Route exact path='/NY' component={NY} />
+          <Route exact path='/PY' component={PY} />
+          <Route exact path='/DC' component={DC} />
+          <Route exact path='/GZ' component={GZ} />
+          <Route exact path='/CQ' component={CQ} />
+          <Route exact path='/CS' component={CS} />
+          <Route exact path='/SH' component={SH} />
+          <Route exact path='/CG' component={CG} />
+          </div>
       </Router>
     </>
   );

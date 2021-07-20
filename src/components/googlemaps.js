@@ -5,8 +5,8 @@ import {
     withScriptjs,
     GoogleMap,
     Marker,
-    InfoWindow
   } from "react-google-maps";
+  import { Link} from 'react-router-dom';
 
 function Map() {
   return (
@@ -209,7 +209,24 @@ export default function Maps() {
     return (
       <div style={{ width: "100vw", height: "150vh", background: '#fff' }}>
           <h1>——— Places I visited ———</h1>
+          <div className='links'>
+          <Link to='/CG#' className='link'>Calgary</Link>
+          <Link to='/ST#'className='link'>Seattle</Link>
+          <Link to='/VC#'className='link'>Vancouver</Link>
+          <Link to='/LA#'className='link'>LA</Link>
+          <Link to='/SF#'className='link'>San Francisco</Link>
+          <Link to='/SD#'className='link'>San Diego</Link>
+          <Link to='/DC#'className='link'>DC</Link>
+          <Link to='/NY#'className='link'>NYC</Link>
+          <Link to='/BS#'className='link'>Boston</Link>
+          <Link to='/PY#'className='link'>Philly</Link>
+          <Link to='/SH#'className='link'>Shanghai</Link>
+          <Link to='/GZ#'className='link'>GuangZhou</Link>
+          <Link to='/CS#'className='link'>Changsha</Link>
+          <Link to='/CQ#'className='link'>Chongqing</Link>
+          </div>
           <h1>(Click on markers to see albums!)</h1>
+          
           
         <MapWrapped
           googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDL-Ym7BsANiFWGaybRq7WC45uexR5rkhE`}
@@ -217,6 +234,7 @@ export default function Maps() {
           containerElement={<div style={{ height: '100%',background: '#fff' }} />}
           mapElement={<div style={{margin:'auto', height: '65%', width: "90%" }} />}
         />
+        
       </div>
     );
   }

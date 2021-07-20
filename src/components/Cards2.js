@@ -11,7 +11,7 @@ function Cards2() {
         I built this website to learn and practice react.js.
            I love programming and building practical software with teamwork, and would love to make a career 
            in software engineering. I spend most of my spare time outdoor, biking, hiking, snowboarding, 
-           paintballing, you name it. I am very passionate about travelling, 
+           paintballing, kneeboarding, you name it. I am very passionate about travelling, 
            you’ll find me in a different place every once in a while.</p>
     </div>
   );

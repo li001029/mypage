@@ -4,6 +4,20 @@
   
 }
 
+.link {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+.links {
+  margin-left:260px;
+  text-align: center;
+  background: '#fff';
+  word-wrap: normal;
+  display: inline-block;
+}
+
 .author-img {
   width: 200px;
   height: 200px;

@@ -229,7 +229,7 @@ export default function Maps() {
           
           
         <MapWrapped
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDL-Ym7BsANiFWGaybRq7WC45uexR5rkhE`}
           loadingElement={<div style={{ height: '100%' }} />}
           containerElement={<div style={{ height: '100%',background: '#fff' }} />}
           mapElement={<div style={{margin:'auto', height: '65%', width: "90%" }} />}

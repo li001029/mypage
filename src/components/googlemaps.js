@@ -6,7 +6,7 @@ import {
     GoogleMap,
     Marker,
   } from "react-google-maps";
-  import { Link} from 'react-router-dom';
+  import {Link} from 'react-router-dom';
 
 function Map() {
   return (

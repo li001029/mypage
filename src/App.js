@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/pages/Home';
-import { HashRouter as Router, Switch, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
 import SF from './components/pages/SF';
 import ST from './components/pages/ST';
 import VC from './components/pages/VC';
@@ -21,7 +21,6 @@ import CG from './components/pages/CG';
 function App() {
   return (
     <>
-    
       <Router >
         <Switch>
           <Route exact path='/SF' component={SF} />
@@ -41,7 +40,6 @@ function App() {
           <Route exact path='/'  component={Home} />
           </Switch>
       </Router>
-      
     </>
   );
 }

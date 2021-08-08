@@ -8,7 +8,7 @@ function Cards4() {
       <h1>—— Some personal thoughts ——</h1>
       <p className='thought'>I have traveled to many places and lived in two countries.
       So far, among all the places I visited, I love Minnesota the most. The three years
-      in Minnesota was the best part of my life, the people there are just so nice and
+      in Minnesota was the best part of my life. The people there are just so nice and
        the summer is full of fun. Winter may be too long, but hey, nothing is perfect.
        I wish that one day, I can go back to Minnesota, settle down, be part of Minnesota 
        nice and let my love light shine.</p>

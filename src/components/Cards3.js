@@ -8,14 +8,9 @@ function Cards3() {
       <h1>——— Experiences ———</h1>
       <div className="school-img" style={ {float:'left', backgroundImage: 'url(images/farmos-4.png)'}} />
       <div className='infotext'>During summer 2021, I worked as a <b>software engineer intern</b> at Minnesota International Chinese
-      School. With the senior thechonology director of the school as our mentor, our small team worked on building a web application
-      for agricultural technology companies. Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.
-      Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.Delete this part.</div>
+      School. With the senior technology director of the school as our mentor, our small team worked on building a web application
+      for agricultural technology companies. The appliation is based on an open source software called FarmOS. I mainly worked on 
+      the front end and the mobile app design, with Vue.js, JavaScript, CSS and HTML.  </div>
     <div className='cards2'>
     
     <div className="school-img" style={ {float:'left', backgroundImage: 'url(images/umn-2.jpg)'}} />

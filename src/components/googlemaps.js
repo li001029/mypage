@@ -61,14 +61,28 @@ function Map() {
         lat: 44.9778,
         lng: -93.2650
       }}
-      onClick={gotoMPLS}
+      onClick={gotomsp}
     />
     <Marker
       position={{
         lat: 46.7867,
         lng: -92.1005
       }}
-      onClick={gotoDuluth}
+      onClick={gotodh}
+    />
+    <Marker
+      position={{
+        lat: 41.8781,
+        lng: -87.6298
+      }}
+      onClick={gotochi}
+    />
+    <Marker
+      position={{
+        lat: 44.0247,
+        lng: -88.5426
+      }}
+      onClick={gotoosk}
     />
     <Marker
       position={{
@@ -179,12 +193,6 @@ function gotoNYC() {
 function gotoBoston() {
     window.location = '/BS';
 }
-function gotoDuluth() {
-    window.location = '/Services';
-}
-function gotoMPLS() {
-    window.location = '/Services';
-}
 function gotoSD() {
     window.location = '/SD';
 }
@@ -204,27 +212,24 @@ function gotovc() {
 function gotocalg() {
     window.location = '/CG';
 }
+function gotomsp() {
+  window.location = '/MSP';
+}
+
+function gotodh() {
+  window.location = '/DH';
+}
+function gotochi() {
+  window.location = '/CHI';
+}
+function gotoosk() {
+  window.location = '/OSK';
+}
 const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function Maps() {
     return (
       <div style={{ width: "100vw", height: "150vh", background: '#fff' }}>
           <h1>——— Places I visited ———</h1>
-          <div className='links'>
-          <Link to='/CG#' className='link'>Calgary</Link>
-          <Link to='/ST#'className='link'>Seattle</Link>
-          <Link to='/VC#'className='link'>Vancouver</Link>
-          <Link to='/LA#'className='link'>LA</Link>
-          <Link to='/SF#'className='link'>San Francisco</Link>
-          <Link to='/SD#'className='link'>San Diego</Link>
-          <Link to='/DC#'className='link'>DC</Link>
-          <Link to='/NY#'className='link'>NYC</Link>
-          <Link to='/BS#'className='link'>Boston</Link>
-          <Link to='/PY#'className='link'>Philly</Link>
-          <Link to='/SH#'className='link'>Shanghai</Link>
-          <Link to='/GZ#'className='link'>GuangZhou</Link>
-          <Link to='/CS#'className='link'>Changsha</Link>
-          <Link to='/CQ#'className='link'>Chongqing</Link>
-          </div>
           <h1>(Click on markers to see albums!)</h1>
           
           

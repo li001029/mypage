@@ -16,6 +16,10 @@ import CQ from './components/pages/CQ';
 import CS from './components/pages/CS';
 import SH from './components/pages/SH';
 import CG from './components/pages/CG';
+import MSP from './components/pages/MSP';
+import CHI from './components/pages/CHI';
+import DH from './components/pages/DH';
+import OSK from './components/pages/OSK';
 
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
           <Route exact path='/CS' component={CS} />
           <Route exact path='/SH' component={SH} />
           <Route exact path='/CG' component={CG} />
+          <Route exact path='/OSK' component={OSK} />
+          <Route exact path='/DH' component={DH} />
+          <Route exact path='/MSP' component={MSP} />
+          <Route exact path='/CHI' component={CHI} />
           <Route exact path='/'  component={Home} />
           </Switch>
       </Router>

@@ -1,2 +1,2 @@
 # mypage
-react created app
+react created personal website.
